@@ -50,7 +50,7 @@ namespace QuizBattle
                     cmd.Connection = conn;
                     MySqlDataReader rdr = cmd.ExecuteReader();
 
-                    if(rdr.Read())
+                    if (rdr.Read())
                     {
                         string passHash = rdr["password"].ToString();
                         string salt = rdr["salt"].ToString();

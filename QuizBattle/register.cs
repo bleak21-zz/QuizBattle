@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace QuizBattle
 {
@@ -15,11 +16,6 @@ namespace QuizBattle
         public register()
         {
             InitializeComponent();
-        }
-
-        private void register_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
